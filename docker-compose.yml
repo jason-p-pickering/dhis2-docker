@@ -1,0 +1,15 @@
+--- 
+db:
+  image: heimdallr/dhis2-trainingland-db
+  environment:
+    - DB_USER=dhis
+    - DB_PASS=dhis
+    - DB_NAME=dhis
+  volumes:
+    - ./db-data:/var/lib/postgresql
+tomcat: 
+  image: heimdallr/tomcat-dhis2
+  ports:
+     - "8888:8080"
+  links:
+     - db:db
