@@ -10,5 +10,8 @@ can be anywhere really. Once you have created this directory, go into it, and do
 
 Start up the system with `docker-compose up`
 
-This package borrows heavily from idea and code from the [GNU Health Docker project](https://github.com/mbehrle/docker-gnuhealth-demo) and was inspired
-by Paolo Gracio's original [work](https://github.com/pgracio/dhis2-docker). 
+This package borrows heavily from idea and code from other projects. 
+
+1) [GNU Health Docker project](https://github.com/mbehrle/docker-gnuhealth-demo) and was inspired
+2)  Paolo Gracio's original [work](https://github.com/pgracio/dhis2-docker) with DHIS2 and docker.
+3) [PostGIS and docker](https://github.com/appropriate/docker-postgis) 
