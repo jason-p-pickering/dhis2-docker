@@ -10,6 +10,8 @@ can be anywhere really. Once you have created this directory, go into it, and do
 
 Start up the system with `docker-compose up`
 
+If you would like to start with the PostGIS enabled version, run `docker-compose -f docker-compose-postgis.yml up`
+
 This package borrows heavily from idea and code from other projects. 
 
 1) [GNU Health Docker project](https://github.com/mbehrle/docker-gnuhealth-demo) and was inspired
