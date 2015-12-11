@@ -1,6 +1,6 @@
 --- 
 db:
-  image: heimdallr/postgres-dhis2 
+  image: heimdallr/dhis2-trainingland-db
   environment:
     - DB_USER=dhis
     - DB_PASS=dhis
